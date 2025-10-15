@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Calculadora Proyecto 2</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <main class="desk">
+    <section class="calc" role="application" aria-label="Calculadora básica">
+      <header class="calc-head">
+        <span class="brand" aria-hidden="true">CALCULADORA PR</span>
+        <div class="solar" aria-hidden="true"></div>
+      </header>
+      <div class="display-wrap">
+        <input id="display" class="display" type="text" inputmode="numeric" autocomplete="off" aria-label="Pantalla" readonly>
+        <div class="glass-reflection" aria-hidden="true"></div>
+      </div>
+      <div class="keys">
+        <button class="btn control" data-action="clear" aria-label="Limpiar">C</button>
+        <button class="btn control" data-action="backspace" aria-label="Borrar">⌫</button>
+        <button class="btn op" data-value="/" aria-label="Dividir">/</button>
+        <button class="btn op" data-value="x" aria-label="Multiplicar">x</button>
+        <button class="btn" data-value="7">7</button>
+        <button class="btn" data-value="8">8</button>
+        <button class="btn" data-value="9">9</button>
+        <button class="btn op plus" data-value="+" aria-label="Sumar">+</button>
+        <button class="btn" data-value="4">4</button>
+        <button class="btn" data-value="5">5</button>
+        <button class="btn" data-value="6">6</button>
+        <button class="btn op minus" data-value="-" aria-label="Restar">-</button>
+        <button class="btn" data-value="1">1</button>
+        <button class="btn" data-value="2">2</button>
+        <button class="btn" data-value="3">3</button>
+        <button class="btn equals" data-action="equals" aria-label="Igual">=</button>
+        <button class="btn wide" data-value="0">0</button>
+        <button class="btn" data-value=".">.</button>
+      </div>
+      <footer class="plate" aria-hidden="true"></footer>
+    </section>
+  </main>
+  <script src="js/app.js"></script>
+</body>
+</html>
